@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.map {
+  width: 90%;
+  height: 80%;
+}
+
+#content:after{
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+.left_container{
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  vertical-align: middle;
+}
+.center_container{
+  float: left;
+  margin-left: 5px;
+}
+.center_container .name{
+  font-size: 16px;
+}
+.center_container .name_en{
+  font-size: 12px;
+}
+
+.right_container{
+  float: right;
+  margin-left: 5px;
+  height: 35px;
+  line-height: 35px;
+  vertical-align: middle;
+}
+.right_container img{
+  vertical-align: middle;
+}
+
+
